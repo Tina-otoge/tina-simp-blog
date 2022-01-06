@@ -1,0 +1,29 @@
+{% extends "blog.html" %}
+
+{% set articles = PAGES|sort(reverse=True, attribute='created_at')|selectattr('meta.template', 'equalto', 'posts.html')|list %}
+
+{% block content %}
+<div id="main" class="container">
+	<p>{{ articles|count }} articles</p>
+	<ul class="entries container" id="main">
+	{% for page in articles %}
+		<li class="entry">
+			<header>
+				<a class="title" href="{{ page.href }}">{{ page.title }}</a>
+				<time title="{{ page.created_at }}">{{ page.created_at.date() }}</time>
+			</header>
+			<div class="extract">
+				{{ page.vars.plain_text|truncate(end='…') }}
+			</div>
+			{% if page.meta.tags %}
+			<ul class="tags">
+			{% for tag in page.meta.tags %}
+				<li>{{ tag }}</li>
+			{% endfor %}
+			</ul>
+			{% endif %}
+		</li>
+	{% endfor %}
+	</ul>
+</div>
+{% endblock %}
