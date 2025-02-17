@@ -1,6 +1,12 @@
 {% extends "blog.html" %}
 
-{% set articles = PAGES|sort(reverse=True, attribute='created_at')|selectattr('meta.template', 'equalto', 'posts.html')|list %}
+{% set articles = (
+	pages
+	|sort(reverse=True, attribute='created_at')
+	|selectattr('meta.template', 'equalto', 'posts.html')
+	|list
+) %}
+
 
 {% block content %}
 <div id="main" class="container">
