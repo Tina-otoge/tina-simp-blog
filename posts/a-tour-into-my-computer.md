@@ -18,11 +18,9 @@ tools on Linux and they help with programming but also with regular usage, and
 someone who does not have experience with IT may not find these tools
 approachable.
 
-![Linux desktop with several apps open](https://cdn.discordapp.com/attachments/439208223673810944/931419486446293002/unknown.png)
-*Me very legally watching cultured anime with Twitter open on the side and a
-Discord notification showing up*
-
-
+![Linux desktop with several apps open](https://cdn.discordapp.com/attachments/439208223673810944/931419486446293002/unknown.png?ex=67e23efe&is=67e0ed7e&hm=277ec7dc537327a29a8521900db447db9d83271b3c2516d8a71762d3f9631d5b&)
+_Me very legally watching cultured anime with Twitter open on the side and a
+Discord notification showing up_
 
 [TOC]
 
@@ -31,9 +29,9 @@ Discord notification showing up*
 There's a big misconception about Linux that what differentiates distros is the
 "look" or "desktop". It is completely false and Linux desktop environments are
 projects run by entirely different people than those who maintain
-distributions.  However, what is true is that most distros offer a "standard"
+distributions. However, what is true is that most distros offer a "standard"
 variant for regular desktop usage, and those will come with a pre-installed
-desktop on it.  This is often what is used as the basis for comparing
+desktop on it. This is often what is used as the basis for comparing
 distributions by newcomers. But in fact, on Linux, the "desktop" you are seeing
 is just one or multiple softwares being run, and you can swap them with
 different ones just like you can pick between the different available Internet
@@ -84,7 +82,7 @@ additional repositories for those popular non-free softwares which makes it
 very straightforward to install them from the GUI.
 
 ![extra fedora repos shown in gnome
-software](https://cdn.discordapp.com/attachments/439208223673810944/931407487721148486/unknown.png)
+software](https://cdn.discordapp.com/attachments/439208223673810944/931407487721148486/unknown.png?ex=67e233d1&is=67e0e251&hm=fca7c99a2f1b07a207a152e99aeaea7fc008925efd549bef26ef24f2cfd85a88&)
 
 If you use the GNOME Software app, which does not require you to use GNOME, you
 can easily extend it to not only show a restricted list of Fedora endorsed
@@ -95,7 +93,7 @@ easily. It can also handle updating your installed softwares, either manually
 or automatically.
 
 ![searching "code" on gnome
-software](https://cdn.discordapp.com/attachments/439208223673810944/931410427424948255/unknown.png)
+software](https://cdn.discordapp.com/attachments/439208223673810944/931410427424948255/unknown.png?ex=67e2368e&is=67e0e50e&hm=cc08879be015fe12b179cee987077c18de79e9e0cfa107ff3d9b74d2c2d6f9d3&)
 
 New software releases are made available to the repositories almost as soon as
 they drop, meaning you usually have updates available for at least something
@@ -121,7 +119,6 @@ capable with the way I manage my servers, however, it is always preferable to
 have frequent updates for desktop usage so I might switch it back to Fedora
 relatively soon.
 
-
 [fedora]: https://getfedora.org/
 [rocky]: https://rockylinux.org/
 
@@ -139,7 +136,7 @@ a desktop, such as a status bar, an applications launcher, notification popups,
 things like that.
 
 ![my i3 setup in 2019](https://github.com/Tina-otoge/Dotfiles/raw/master/.gh/2019-06-10/rofi-nemo-htop.png)
-*My i3 setup back in 2019*
+_My i3 setup back in 2019_
 
 At that time, there were two things that charmed me with them. First the fact
 that they are WMs meant it did not come with extra functionalities I don't need,
@@ -164,7 +161,7 @@ This is why I started exploring more fully-fledged solutions, and after trying
 multiple of them, the one that did the job the best for me was GNOME.
 
 ![gnome screenshot from wikipedia](https://upload.wikimedia.org/wikipedia/commons/e/e7/GNOME_Shell_41_with_GNOME_Web_%28released_in_2021-09%29.png?1642139486609)
-*The default GNOME desktop as of version 41, from Wikipedia*
+_The default GNOME desktop as of version 41, from Wikipedia_
 
 Just like with code editors and distros, there is a sort of war ongoing between
 the users of each desktop, and GNOME has a reputation of being slow and
@@ -185,7 +182,7 @@ eventually backed down from using those bigger extensions as they had frequent
 bugs and broke on major GNOME updates. But I am still able to recreate the i3
 feel.
 
-![two windows in a split view on GNOME](https://cdn.discordapp.com/attachments/439208223673810944/931428482079150090/unknown.png)
+![two windows in a split view on GNOME](https://cdn.discordapp.com/attachments/439208223673810944/931428482079150090/unknown.png?ex=67e2475f&is=67e0f5df&hm=eb54faf2fe32d13c067c6e3e3e9df3b633a477e892a4a0a288c8c3681a5f4855&)
 
 I use a theme called [Materia][materia] which is unsurprisingly based on the
 Material Design trend and an icons theme called [Vimix][vimix-icons], which
@@ -201,13 +198,12 @@ the remaining space. It also enables me to create the "gaps" between windows,
 which I love for how slick they look, and got used to them from when I was using
 i3-gaps.
 
-![current list of extensions](https://cdn.discordapp.com/attachments/439208223673810944/931428812594511962/unknown.png)
+![current list of extensions](https://cdn.discordapp.com/attachments/439208223673810944/931428812594511962/unknown.png?ex=67e247ae&is=67e0f62e&hm=3936bbfb044ef574a7f98572dad031bfe1d311f2733235472d958122becae256&)
 
 There are also some obscure configuration options I have tweaked, custom
 shortcuts I added, some supporting scripts that I wrote, but those often change
 over time and I'd have trouble remembering all of them but they made using
 GNOME very pleasant to me.
-
 
 [paperwm]: https://github.com/paperwm/PaperWM
 [material-shell]: https://material-shell.com/
@@ -231,12 +227,12 @@ my browser, and 3 to my chat apps. Thankfully, this is something that you can
 easily reproduce on both GNOME and Windows by pinning some applications to the
 status bar. When using Windows + a number, it will switch to the corresponding
 application in your bar, or open it if there are no currently open windows of
-it.  If the application is in another workspace, you will be moved to it. So I
+it. If the application is in another workspace, you will be moved to it. So I
 just had to pin the terminal, Firefox, and Discord to my dock in this specific
 order to get the exact same behavior and not trouble my muscle memory!
 
-![workspaces overview screenshot](https://cdn.discordapp.com/attachments/439208223673810944/931434519804923944/unknown.png)
-*My pinned applications can be seen at the bottom of the screenshot*
+![workspaces overview screenshot](https://cdn.discordapp.com/attachments/439208223673810944/931434519804923944/unknown.png?ex=67e24cfe&is=67e0fb7e&hm=7c60f5ea26e4d82e5882cbddf8044c1bb7cfe3bda509ecac4bef25a5c86c5b4b&)
+_My pinned applications can be seen at the bottom of the screenshot_
 
 One other very cool keyboard shortcut habit I picked up was from when I tried
 Material Shell, where apps were disposed in an infinite 2-dimensional grid, and
@@ -300,15 +296,15 @@ from anywhere in the world. I use [Jellyfin][jellyfin] as my media server and
 UI when on PC, or the free/libre Android application [Gelli][gelli], a fork of
 Phonograph that integrates with Jellyfin.
 
-![screenshot of my jellyfin setup](https://cdn.discordapp.com/attachments/439208223673810944/931445616293335050/unknown.png)
-*My Jellyfin music library and the player view*
+![screenshot of my jellyfin setup](https://cdn.discordapp.com/attachments/439208223673810944/931445616293335050/unknown.png?ex=67e25754&is=67e105d4&hm=38a0982d11cd2423502941320fbc7ae4af62d6ac7de289db3cb95ec036e1fbc8&)
+_My Jellyfin music library and the player view_
 
 If I'm downloading new music from a torrent, I effortlessly do so from a PC or
 phone directly to my server using the modern torrent clients web UI
 [Flood][flood], and make it download directly to my music folder, which will
 update my library automatically.
 
-![a screenshot of my Flood setup](https://cdn.discordapp.com/attachments/439208223673810944/931446133287428116/unknown.png)
+![a screenshot of my Flood setup](https://cdn.discordapp.com/attachments/439208223673810944/931446133287428116/unknown.png?ex=67e257cf&is=67e1064f&hm=179dbecdea2de08e6bc8333a88acc9b5233a471b7243ed8e9a8643ec75fc758f&)
 
 I usually go for V0 encodes as I'm not an audiophile enough to care about
 lossless quality and they provide the best size/quality ratio in my opinion.
@@ -321,7 +317,6 @@ I use the wrapper [YouTube Music Desktop][youtube-music-desktop] which blocks
 ads but also brings in a lot of quality of life improvements such as native
 media controls support and Discord Rich Presence integration. On mobile, I
 obviously use [Vanced][vanced].
-
 
 [art-companion]: https://github.com/tina-otoge/artcompanion
 [webtorrent-cli]: https://github.com/webtorrent/webtorrent-cli
@@ -347,7 +342,7 @@ installed either on a per-user basis or globally. The degree of isolation can
 be configured for each application, providing a level of control similar to
 what you are used to on Android.
 
-![screenshot of flatseal](https://cdn.discordapp.com/attachments/439208223673810944/931451358022893588/unknown.png)
+![screenshot of flatseal](https://cdn.discordapp.com/attachments/439208223673810944/931451358022893588/unknown.png?ex=67e25cad&is=67e10b2d&hm=b8d8f6ecc8436c94927b29e23234d449123f3ed24884cb819fbb2ac27bcbea7e&)
 
 This is very useful for many reasons, for example, if you do not entirely trust
 an application, you can limit its access to the files on your system or revoke
@@ -364,7 +359,6 @@ work than making sure their application works on every distribution.
 showed how it can be integrated into the GNOME Software app earlier, it provides
 a platform to publish and search applications.
 
-
 [flatpak]: https://flatpak.org/
 [flathub]: https://flathub.org/
 
@@ -375,7 +369,7 @@ I use them every day and got so used to them, I kind of forget what really
 sticks out and is worth recommending. First of all, here's a screenshot of my
 application drawer.
 
-![my application drawer](https://cdn.discordapp.com/attachments/439208223673810944/931449739973656596/unknown.png)
+![my application drawer](https://cdn.discordapp.com/attachments/439208223673810944/931449739973656596/unknown.png?ex=67e25b2b&is=67e109ab&hm=47a9e2e1355ead3e11711e450a1de69062dfb680c3fe6beb0a16dc46d4db976e&)
 
 There are a bunch of developer tools in there, such as
 [sqlitebrowser][sqlitebrowser] and [DBeaver][dbeaver], popular tools to interact
@@ -387,9 +381,9 @@ Chromium has, which is being able to run a website in a dedicated app-like view,
 creating the illusion it is not running in a browser. I use that to run
 Jellyfin, Mahjong Soul, or Taiko Web for example.
 
-![majsoul in chromium's app mode view](https://cdn.discordapp.com/attachments/439208223673810944/931454874099544094/unknown.png)
-*Mahjong Soul running in Chromium's app mode, making it look like an actual
-desktop application*
+![majsoul in chromium's app mode view](https://cdn.discordapp.com/attachments/439208223673810944/931454874099544094/unknown.png?ex=67e25ff3&is=67e10e73&hm=e593b5eb6cbfa46578c49b9711d74541f8d3155b36319c63db0a6c20d36d62f8&)
+_Mahjong Soul running in Chromium's app mode, making it look like an actual
+desktop application_
 
 I use GNOME's default files explorer, Nautilus, even though I do most of my
 file interactions directly through a terminal. It is still useful to have when
@@ -411,7 +405,6 @@ try some OS quickly and easily. But I was quickly frustrated by the lack of
 features. virt-manager offers everything I need, is simple enough to use, and
 most importantly isn't made by Oracle.
 
-
 [sqlitebrowser]: https://sqlitebrowser.org/
 [dbeaver]: https://dbeaver.io/
 [flatseal]: https://github.com/tchx84/Flatseal
@@ -425,11 +418,12 @@ simple as it can be as I use it exclusively if I want to play games or stream.
 I hide the desktop icons from view (right-click on desktop, view > show icons).
 I think the desktop looks way more beautiful without them. If I need to access
 my files, Firefox or Discord, I use the keyboard shortcuts I mentioned (Windows
-+ 1, 2, or 3) as they are the only things pinned to my status bar. For other
-applications, I bring up the Start Menu with a single press on the Windows key
-and then either type the name of an app or click in the list of applications,
-just like I would do on Linux. My Start Menu is tidy enough to only contain
-stuff I actually use.
+
+- 1, 2, or 3) as they are the only things pinned to my status bar. For other
+  applications, I bring up the Start Menu with a single press on the Windows key
+  and then either type the name of an app or click in the list of applications,
+  just like I would do on Linux. My Start Menu is tidy enough to only contain
+  stuff I actually use.
 
 I use ShareX, the very powerful screenshot tool which I often miss when I'm on
 Linux. It allows for quickly editing your screen before snapping a picture,
