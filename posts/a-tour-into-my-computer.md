@@ -1,3 +1,7 @@
+---
+date: 2022-01-14
+---
+
 Like many, I spend a lot of time on my computer. I want the time I spend on my
 computer to be pleasant, but since I also work on my computer it has to provide
 me with an easy-to-use and productive environment.
