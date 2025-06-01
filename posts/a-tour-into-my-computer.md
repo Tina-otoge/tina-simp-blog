@@ -1,3 +1,7 @@
+---
+date: 2022-01-14
+---
+
 :warning: Disclaimer :warning:
 
 *This article is a great snapshot of what my Linux experience was like at the
@@ -42,9 +46,9 @@ Discord notification showing up*
 There's a big misconception about Linux that what differentiates distros is the
 "look" or "desktop". It is completely false and Linux desktop environments are
 projects run by entirely different people than those who maintain
-distributions.  However, what is true is that most distros offer a "standard"
+distributions. However, what is true is that most distros offer a "standard"
 variant for regular desktop usage, and those will come with a pre-installed
-desktop on it.  This is often what is used as the basis for comparing
+desktop on it. This is often what is used as the basis for comparing
 distributions by newcomers. But in fact, on Linux, the "desktop" you are seeing
 is just one or multiple softwares being run, and you can swap them with
 different ones just like you can pick between the different available Internet
@@ -132,7 +136,6 @@ capable with the way I manage my servers, however, it is always preferable to
 have frequent updates for desktop usage so I might switch it back to Fedora
 relatively soon.
 
-
 [fedora]: https://getfedora.org/
 [rocky]: https://rockylinux.org/
 
@@ -219,7 +222,6 @@ shortcuts I added, some supporting scripts that I wrote, but those often change
 over time and I'd have trouble remembering all of them but they made using
 GNOME very pleasant to me.
 
-
 [paperwm]: https://github.com/paperwm/PaperWM
 [material-shell]: https://material-shell.com/
 [materia]: https://github.com/nana-4/materia-theme
@@ -242,7 +244,7 @@ my browser, and 3 to my chat apps. Thankfully, this is something that you can
 easily reproduce on both GNOME and Windows by pinning some applications to the
 status bar. When using Windows + a number, it will switch to the corresponding
 application in your bar, or open it if there are no currently open windows of
-it.  If the application is in another workspace, you will be moved to it. So I
+it. If the application is in another workspace, you will be moved to it. So I
 just had to pin the terminal, Firefox, and Discord to my dock in this specific
 order to get the exact same behavior and not trouble my muscle memory!
 
@@ -333,7 +335,6 @@ ads but also brings in a lot of quality of life improvements such as native
 media controls support and Discord Rich Presence integration. On mobile, I
 obviously use [Vanced][vanced].
 
-
 [art-companion]: https://github.com/tina-otoge/artcompanion
 [webtorrent-cli]: https://github.com/webtorrent/webtorrent-cli
 [mpv]: https://mpv.io/
@@ -374,7 +375,6 @@ work than making sure their application works on every distribution.
 [Flathub][flathub] is the main storefront for Flatpak applications, I already
 showed how it can be integrated into the GNOME Software app earlier, it provides
 a platform to publish and search applications.
-
 
 [flatpak]: https://flatpak.org/
 [flathub]: https://flathub.org/
@@ -422,7 +422,6 @@ try some OS quickly and easily. But I was quickly frustrated by the lack of
 features. virt-manager offers everything I need, is simple enough to use, and
 most importantly isn't made by Oracle.
 
-
 [sqlitebrowser]: https://sqlitebrowser.org/
 [dbeaver]: https://dbeaver.io/
 [flatseal]: https://github.com/tchx84/Flatseal
@@ -436,11 +435,12 @@ simple as it can be as I use it exclusively if I want to play games or stream.
 I hide the desktop icons from view (right-click on desktop, view > show icons).
 I think the desktop looks way more beautiful without them. If I need to access
 my files, Firefox or Discord, I use the keyboard shortcuts I mentioned (Windows
-+ 1, 2, or 3) as they are the only things pinned to my status bar. For other
-applications, I bring up the Start Menu with a single press on the Windows key
-and then either type the name of an app or click in the list of applications,
-just like I would do on Linux. My Start Menu is tidy enough to only contain
-stuff I actually use.
+
+- 1, 2, or 3) as they are the only things pinned to my status bar. For other
+  applications, I bring up the Start Menu with a single press on the Windows key
+  and then either type the name of an app or click in the list of applications,
+  just like I would do on Linux. My Start Menu is tidy enough to only contain
+  stuff I actually use.
 
 I use ShareX, the very powerful screenshot tool which I often miss when I'm on
 Linux. It allows for quickly editing your screen before snapping a picture,
