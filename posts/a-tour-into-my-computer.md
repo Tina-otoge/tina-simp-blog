@@ -1,3 +1,11 @@
+:warning: Disclaimer :warning:
+
+*This article is a great snapshot of what my Linux experience was like at the
+time of writing it (2022). Obviously, as time goes on, my habits change. Please
+keep that in mind while reading!*
+
+-- Tina from 2025.
+
 Like many, I spend a lot of time on my computer. I want the time I spend on my
 computer to be pleasant, but since I also work on my computer it has to provide
 me with an easy-to-use and productive environment.
@@ -18,7 +26,10 @@ tools on Linux and they help with programming but also with regular usage, and
 someone who does not have experience with IT may not find these tools
 approachable.
 
-![Linux desktop with several apps open](https://cdn.discordapp.com/attachments/439208223673810944/931419486446293002/unknown.png)
+![Clean desktop screenshot](https://tina.moe/assets/cloud/blog/computer-tour-2022/gnome-overview.png)
+*What my desktop looks like on a new workspace*
+
+![Linux desktop with several apps open](https://tina.moe/assets/cloud/blog/computer-tour-2022/linux-desktop-with-anime-and-twitter.png)
 *Me very legally watching cultured anime with Twitter open on the side and a
 Discord notification showing up*
 
@@ -84,7 +95,7 @@ additional repositories for those popular non-free softwares which makes it
 very straightforward to install them from the GUI.
 
 ![extra fedora repos shown in gnome
-software](https://cdn.discordapp.com/attachments/439208223673810944/931407487721148486/unknown.png)
+software](https://tina.moe/assets/cloud/blog/computer-tour-2022/extra-fedora-repos.png)
 
 If you use the GNOME Software app, which does not require you to use GNOME, you
 can easily extend it to not only show a restricted list of Fedora endorsed
@@ -95,7 +106,7 @@ easily. It can also handle updating your installed softwares, either manually
 or automatically.
 
 ![searching "code" on gnome
-software](https://cdn.discordapp.com/attachments/439208223673810944/931410427424948255/unknown.png)
+software](https://tina.moe/assets/cloud/blog/computer-tour-2022/gnome-software-search.png)
 
 New software releases are made available to the repositories almost as soon as
 they drop, meaning you usually have updates available for at least something
@@ -138,7 +149,7 @@ and configure additional softwares if you want other features you'd expect from
 a desktop, such as a status bar, an applications launcher, notification popups,
 things like that.
 
-![my i3 setup in 2019](https://github.com/Tina-otoge/Dotfiles/raw/master/.gh/2019-06-10/rofi-nemo-htop.png)
+![my i3 setup in 2019](https://tina.moe/assets/cloud/blog/computer-tour-2022/old-setup-rofi-nemo-htop.png)
 *My i3 setup back in 2019*
 
 At that time, there were two things that charmed me with them. First the fact
@@ -163,7 +174,7 @@ disunity, which is something I also dislike about Windows for instance.
 This is why I started exploring more fully-fledged solutions, and after trying
 multiple of them, the one that did the job the best for me was GNOME.
 
-![gnome screenshot from wikipedia](https://upload.wikimedia.org/wikipedia/commons/e/e7/GNOME_Shell_41_with_GNOME_Web_%28released_in_2021-09%29.png?1642139486609)
+![gnome screenshot from wikipedia](https://tina.moe/assets/cloud/blog/computer-tour-2022/gnome-default-look.png)
 *The default GNOME desktop as of version 41, from Wikipedia*
 
 Just like with code editors and distros, there is a sort of war ongoing between
@@ -185,7 +196,7 @@ eventually backed down from using those bigger extensions as they had frequent
 bugs and broke on major GNOME updates. But I am still able to recreate the i3
 feel.
 
-![two windows in a split view on GNOME](https://cdn.discordapp.com/attachments/439208223673810944/931428482079150090/unknown.png)
+![two windows in a split view on GNOME](https://tina.moe/assets/cloud/blog/computer-tour-2022/gnome-split-view.png)
 
 I use a theme called [Materia][materia] which is unsurprisingly based on the
 Material Design trend and an icons theme called [Vimix][vimix-icons], which
@@ -201,7 +212,7 @@ the remaining space. It also enables me to create the "gaps" between windows,
 which I love for how slick they look, and got used to them from when I was using
 i3-gaps.
 
-![current list of extensions](https://cdn.discordapp.com/attachments/439208223673810944/931428812594511962/unknown.png)
+![current list of extensions](https://tina.moe/assets/cloud/blog/computer-tour-2022/gnome-current-extensions.png)
 
 There are also some obscure configuration options I have tweaked, custom
 shortcuts I added, some supporting scripts that I wrote, but those often change
@@ -235,7 +246,7 @@ it.  If the application is in another workspace, you will be moved to it. So I
 just had to pin the terminal, Firefox, and Discord to my dock in this specific
 order to get the exact same behavior and not trouble my muscle memory!
 
-![workspaces overview screenshot](https://cdn.discordapp.com/attachments/439208223673810944/931434519804923944/unknown.png)
+![workspaces overview screenshot](https://tina.moe/assets/cloud/blog/computer-tour-2022/gnome-overview.png)
 *My pinned applications can be seen at the bottom of the screenshot*
 
 One other very cool keyboard shortcut habit I picked up was from when I tried
@@ -300,7 +311,7 @@ from anywhere in the world. I use [Jellyfin][jellyfin] as my media server and
 UI when on PC, or the free/libre Android application [Gelli][gelli], a fork of
 Phonograph that integrates with Jellyfin.
 
-![screenshot of my jellyfin setup](https://cdn.discordapp.com/attachments/439208223673810944/931445616293335050/unknown.png)
+![screenshot of my jellyfin setup](https://tina.moe/assets/cloud/blog/computer-tour-2022/jellyfin-music.png)
 *My Jellyfin music library and the player view*
 
 If I'm downloading new music from a torrent, I effortlessly do so from a PC or
@@ -308,7 +319,7 @@ phone directly to my server using the modern torrent clients web UI
 [Flood][flood], and make it download directly to my music folder, which will
 update my library automatically.
 
-![a screenshot of my Flood setup](https://cdn.discordapp.com/attachments/439208223673810944/931446133287428116/unknown.png)
+![a screenshot of my Flood setup](https://tina.moe/assets/cloud/blog/computer-tour-2022/flood.png)
 
 I usually go for V0 encodes as I'm not an audiophile enough to care about
 lossless quality and they provide the best size/quality ratio in my opinion.
@@ -347,7 +358,7 @@ installed either on a per-user basis or globally. The degree of isolation can
 be configured for each application, providing a level of control similar to
 what you are used to on Android.
 
-![screenshot of flatseal](https://cdn.discordapp.com/attachments/439208223673810944/931451358022893588/unknown.png)
+![screenshot of flatseal](https://tina.moe/assets/cloud/blog/computer-tour-2022/flatseal.png)
 
 This is very useful for many reasons, for example, if you do not entirely trust
 an application, you can limit its access to the files on your system or revoke
@@ -375,7 +386,7 @@ I use them every day and got so used to them, I kind of forget what really
 sticks out and is worth recommending. First of all, here's a screenshot of my
 application drawer.
 
-![my application drawer](https://cdn.discordapp.com/attachments/439208223673810944/931449739973656596/unknown.png)
+![my application drawer](https://tina.moe/assets/cloud/blog/computer-tour-2022/gnome-drawer.png)
 
 There are a bunch of developer tools in there, such as
 [sqlitebrowser][sqlitebrowser] and [DBeaver][dbeaver], popular tools to interact
@@ -387,7 +398,7 @@ Chromium has, which is being able to run a website in a dedicated app-like view,
 creating the illusion it is not running in a browser. I use that to run
 Jellyfin, Mahjong Soul, or Taiko Web for example.
 
-![majsoul in chromium's app mode view](https://cdn.discordapp.com/attachments/439208223673810944/931454874099544094/unknown.png)
+![majsoul in chromium's app mode view](https://tina.moe/assets/cloud/blog/computer-tour-2022/majsoul.png)
 *Mahjong Soul running in Chromium's app mode, making it look like an actual
 desktop application*
 
